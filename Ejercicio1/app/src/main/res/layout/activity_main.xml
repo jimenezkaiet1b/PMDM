@@ -64,11 +64,18 @@
             tools:ignore="MissingConstraints" />
 
         <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="el resultado se mostrara aqui"
             tools:ignore="MissingConstraints" />
+
     </LinearLayout>
 
     <androidx.constraintlayout.widget.Guideline
