@@ -17,19 +17,21 @@ class MainActivity : AppCompatActivity() {
         val botonReset : ImageButton = findViewById(R.id.reset)
         val salida : TextView = findViewById(R.id.resultado)
 
-        botonSuma.setOnClickListener{
+        botonSuma.setOnClickListener {
             var laSalida = salida.text.toString().toInt()
-            salida.text = laSalida++.toString();
+            laSalida++
+            salida.text = laSalida.toString()
         }
 
-        botonResta.setOnClickListener{
+        botonResta.setOnClickListener {
             var laSalida = salida.text.toString().toInt()
 
-            if (laSalida > 0){
-                salida.text = laSalida--.toString()
-
+            if (laSalida > 0) {
+                laSalida--
+                salida.text = laSalida.toString()
             }
         }
+
 
         botonReset.setOnClickListener{
             salida.text = "0";
