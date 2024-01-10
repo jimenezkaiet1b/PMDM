@@ -66,10 +66,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="180dip"
                 android:layout_marginRight="180dip"
+                android:contentDescription="TODO"
                 android:src="@android:drawable/btn_star"
                 android:textAlignment="center"
-                tools:src="@android:drawable/ic_menu_directions"
-                android:contentDescription="TODO" />
+                tools:src="@android:drawable/ic_menu_revert" />
         </LinearLayout>
 
     </LinearLayout>
